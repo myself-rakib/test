@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    height: 105px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+/*==========================git 
+     Navbar part start
+=========================*/
+
+.ul{
+     display: flex;
+     column-gap: 47px;
+     list-style: none;
+     font-family: "poppins",;
+}
+nav{
+    background-color: #F40404;
+}
+.logo-part{
+    width: 45%;
+
+}
+.menu-part{
+    width: 45%;
+
+}
+.button-part{
+
+}
+
+
+/*==========================
+     Navbar part End
+=========================*/

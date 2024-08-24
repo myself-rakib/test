@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+/*==========================
+     Navbar part start
+=========================*/
+
+.ul{
+     display: flex;
+     column-gap: 47px;
+     list-style: none;
+}
+
+nav{
+    background-color: #F40404;
+    padding: 30px 0px;
+}
+
+.logo-part{
+    width: 45%;
+}
+
+.menu-part{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 45%;
+}
+
+.button-part{
+    width: 10%;
+}
+
+.button-part button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    background-color: #F40404;
+    padding: 14px 30px;
+    border: 2px solid white;
+}
+
+/*==========================
+     Navbar part End
+=========================*/
+
+/*==========================
+     Banner part Start
+=========================*/
+
+.banner{
+    width: 100%;
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-part{
+    padding-top: 257px;
+    padding-bottom: 340px;
+
+}
+.banner-part h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    width: 842px;
+    padding-bottom: 31px;
+}
+.banner-part button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: #F40404;
+    width: 186px;
+    padding: 14px 40px;
+    border: 0;
+}
+
+
+/*==========================
+     Banner part End
+=========================*/
+
+/*==========================
+     country part Start
+=========================*/
+.country .left{
+    width: 40%;
+
+}
+.country .left h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(10, 10, 10);
+    width: 289px;
+    padding-bottom: 100px;
+    padding-top: 79px;
+
+}
+.country .right{
+    width: 60%;
+}
+.country .right p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 651px;
+    padding-bottom: 100px;
+    padding-top: 79px;
+}
+.country .box2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+/*==========================
+     country part End
+ =========================*/
